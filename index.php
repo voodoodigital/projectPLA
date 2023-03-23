@@ -19,6 +19,13 @@
 <body>
 
     <!-- main web applicatio UI layout -->
+    <form action="api/test.php" method="get">
+        <input placeholder="mobile" type="text" name="mobile" />
+        <input placeholder="email" type="text" name="email" />
+        <button type="submit">Send</button>
+        <p>I will display &euro;&#x2f;</p>
+    </form>
+
 
 </body>
 
