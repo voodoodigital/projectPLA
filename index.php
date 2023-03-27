@@ -23,6 +23,15 @@
     <!-- you only have to main layout of the web application -->
     <!-- use bootstrap for the lay out -->
 
+    <div class="container-fluid">
+        <div class="col-12 p-0">
+            <div class="row m-0">
+                test
+            </div>
+        </div>
+    </div>
+
+
 </body>
 
 </html>
