@@ -62,3 +62,4 @@ class DB
         $this->connection->close();
     }
 }
+?>
