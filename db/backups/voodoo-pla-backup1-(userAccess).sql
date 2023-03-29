@@ -263,7 +263,7 @@ CREATE TABLE `user` (
   KEY `fk_user_gender1_idx` (`user_gender_id`),
   CONSTRAINT `fk_user_gender1` FOREIGN KEY (`user_gender_id`) REFERENCES `gender` (`gender_id`),
   CONSTRAINT `fk_user_status` FOREIGN KEY (`user_status_id`) REFERENCES `user_status` (`user_status_id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3 COMMENT='		';
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb3 COMMENT='		';
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -272,6 +272,7 @@ CREATE TABLE `user` (
 
 LOCK TABLES `user` WRITE;
 /*!40000 ALTER TABLE `user` DISABLE KEYS */;
+INSERT INTO `user` VALUES (1,'email@gmail.com','janith','nirmal','0710902997','2023-03-23 00:00:00','123123','123123',1,1),(2,'janith@gmail.com','janith','nirmal','0710902997','2023-03-29 05:45:53','48aea17fb381cb693e7797e435ccb83eeb9bcef3b161c5b786a8daf06cff251f4294bffebc938446359acab0cd4ea4ad1553e829221facd0bae413c1ea77f1e3','144682108364238339b28e24.25551971',1,1);
 /*!40000 ALTER TABLE `user` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -308,4 +309,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2023-03-24  4:25:42
+-- Dump completed on 2023-03-29  8:31:56
