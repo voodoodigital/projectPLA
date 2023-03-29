@@ -33,3 +33,9 @@ echo ($responseJsonText);
 
 $response = 'array or a value or an object which contains all the response data'; // if response in just text
 echo ($response); // for just text responses
+
+
+
+
+
+

@@ -8,12 +8,18 @@ class DB
     private $connection;
 
     // Constructor that takes in connection details and establishes a connection to the database
-    public function __construct($host, $user, $password, $database)
+    public function __construct()
     {
+        $host = 'localhost';
+        $user = 'root';
+        $password = 'JanithNirmal12#$';
+        $database = 'project-pla';
+
         $this->host = $host;
         $this->user = $user;
         $this->password = $password;
         $this->database = $database;
+
 
         // Connect to the database using mysqli
         $this->connection = new mysqli($host, $user, $password, $database);
@@ -62,4 +68,3 @@ class DB
         $this->connection->close();
     }
 }
-?>
