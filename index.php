@@ -72,7 +72,7 @@
         </div>
         <div class="col-12 p-0" style="flex:1;">
             <div class="row m-0  h-100">
---
+
                 <div class="col-2 p-0 bg-danger col-lg-4 ">
                     <div class="row p-2 m-0">
                         <button class="my-1 btn btn-primary">se-nav2</button>
