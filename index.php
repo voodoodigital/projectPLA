@@ -25,7 +25,12 @@
 
     <div class="container-fluid d-flex flex-column" style="height:100vh;">
         <div class="col-12 p-0 " style="height:70px">
-            <div class="d-flex justify-content-center row m-0 bg-primary h-100 align-item-text-center">
+            <div class="d-flex justify-content-center  m-0 bg-primary h-100 align-item-text-center px-2">
+
+                <div class="d-flex justify-content-center align-items-center">
+                    <span class="fw-bold fs-4">LOGO</span>
+                </div>
+
                 <div class="d-flex gap-1 w-100 h-100 align-items-center justify-content-center">
                     <div class="dropdown">
                         <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -59,11 +64,15 @@
                         </ul>
                     </div>
                 </div>
+
+                <div class="d-flex justify-content-center align-items-center">
+                    <i class="fs-3 text-white bi bi-heart"></i>
+                </div>
             </div>
         </div>
         <div class="col-12 p-0" style="flex:1;">
             <div class="row m-0  h-100">
-
+--
                 <div class="col-2 p-0 bg-danger col-lg-4 ">
                     <div class="row p-2 m-0">
                         <button class="my-1 btn btn-primary">se-nav2</button>
