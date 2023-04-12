@@ -23,59 +23,10 @@
     <!-- you only have to main layout of the web application -->
     <!-- use bootstrap for the lay out -->
 
-    <div class="container-fluid d-flex flex-column" style="height:100vh;">
-        <div class="col-12 p-0 " style="height:70px">
-            <div class="d-flex justify-content-center row m-0 bg-primary h-100 align-item-text-center">
-                <div class="d-flex gap-1 w-100 h-100 align-items-center justify-content-center">
-                    <div class="dropdown">
-                        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Dropdown button
-                        </button>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                    </div>
-
-                    <div class="dropdown">
-                        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Dropdown button
-                        </button>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                    </div>
-                    <div class="dropdown">
-                        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Dropdown button
-                        </button>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="col-12 p-0" style="flex:1;">
-            <div class="row m-0  h-100">
-
-                <div class="col-2 p-0 bg-danger col-lg-4 ">
-                    <div class="row p-2 m-0">
-                        <button class="my-1 btn btn-primary">se-nav2</button>
-                        <button class="my-1 btn btn-primary">se-nav2</button>
-                        <button class="my-1 btn btn-primary">se-nav2</button>
-                        <button class="my-1 btn btn-primary">se-nav2</button>
-                        <button class="my-1 btn btn-primary">se-nav2</button>
-                    </div>
-                </div>
-                <div class="col-10 bg-success p-0 col-lg-8">
-                    <div class="row m-0"></div>
-                </div>
+    <div class="container-fluid">
+        <div class="col-12 p-0">
+            <div class="row m-0">
+                test
             </div>
         </div>
     </div>
