@@ -23,7 +23,7 @@
     <!-- you only have to main layout of the web application -->
     <!-- use bootstrap for the lay out -->
 
-    <div class="container-fluid d-flex flex-column" style="height:100vh;">
+    <div class="container-fluid p-0 d-flex flex-column" style="height:100vh;">
         <div class="col-12 p-0 " style="height:70px">
             <div class="d-flex justify-content-center  m-0 bg-primary h-100 align-item-text-center px-2">
 

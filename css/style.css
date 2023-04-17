@@ -9,3 +9,25 @@
 - animations
 */
 /* each class name must indicate the usecase or used UI referance along with funtionality (ex: .reminder-list-container <- here the first word indicate the location and others will describe the functionality) */
+
+.formdata {
+    min-width: 400px;
+}
+
+.formdata .inputbox {
+  margin: 0%;
+  padding: 0%;
+  background-color: black;
+}
+
+.mainlogo {
+}
+
+.formbg {
+  background-color: #dadada;
+  border-radius: 20px;
+}
+
+.test {
+  background-color: rgb(33, 122, 255);
+}
