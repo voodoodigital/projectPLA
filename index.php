@@ -34,39 +34,39 @@
                 <div class="d-flex gap-1 w-100 h-100 align-items-center justify-content-center">
                     <div class="dropdown">
                         <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Dropdown button
+                            Time Management
                         </button>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            <button class="dropdown-item" onclick="secondaryNavigationChanger('timeManagement');" >Time Management</button>
+                            <button class="dropdown-item" onclick="secondaryNavigationChanger('financialManagemnt');" >Finacial Managemnet</button>
+
                         </ul>
                     </div>
 
                     <div class="dropdown">
                         <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Dropdown button
+                            Goal setting
                         </button>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            <li><a class="dropdown-item" href="#" onclick="secondaryNavigationChanger('goalSetting');" >Goal setting</a></li>
+                            <li><a class="dropdown-item" href="#">Educational Content</a></li>
+
                         </ul>
                     </div>
                     <div class="dropdown">
                         <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Dropdown button
+                            Relationalship Management
                         </button>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            <li><a class="dropdown-item" href="#">Relationalship Management</a></li>
+                            <li><a class="dropdown-item" href="#">Health Management</a></li>
+                            <li><a class="dropdown-item" href="#">Entertainment</a></li>
                         </ul>
                     </div>
                 </div>
 
                 <div class="d-flex justify-content-center align-items-center">
-                    <i class="fs-3 text-white bi bi-heart"></i>
+                    <i class="fs-3 text-white bi bi-person-circle"></i>
                 </div>
             </div>
         </div>
@@ -74,12 +74,29 @@
             <div class="row m-0  h-100">
 
                 <div class="col-2 p-0 bg-danger col-lg-4 ">
-                    <div class="row p-2 m-0">
-                        <button class="my-1 btn btn-primary">se-nav2</button>
-                        <button class="my-1 btn btn-primary">se-nav2</button>
-                        <button class="my-1 btn btn-primary">se-nav2</button>
-                        <button class="my-1 btn btn-primary">se-nav2</button>
-                        <button class="my-1 btn btn-primary">se-nav2</button>
+                    <div class="row p-2 m-0" id="secondaryNavigationContainer">
+                        <section class="col-12  p-0" id="timeManagement" style="display: block;">
+                            <div class="row m-0">
+                                <button class="my-1 btn btn-primary">project</button>
+                                <button class="my-1 btn btn-primary">Task</button>
+                                <button class="my-1 btn btn-primary">Todo</button>
+                                <button class="my-1 btn btn-primary">Remainder</button>
+                            </div>
+                        </section>
+                        <section class="col-12  p-0" id="financialManagemnt" style="display: none;">
+                            <div class="row m-0">
+                                <button class="my-1 btn btn-primary">Income</button>
+                                <button class="my-1 btn btn-primary">Expence</button>
+                                <button class="my-1 btn btn-primary">financial Status</button>
+                            </div>
+                        </section>
+                        <section class="col-12  p-0" id="goalSetting" style="display: none;">
+                            <div class="row m-0">
+                                <button class="my-1 btn btn-primary">Goal</button>
+                                <button class="my-1 btn btn-primary">Milestone</button>
+                            </div>
+                        </section>
+
                     </div>
                 </div>
                 <div class="col-10 bg-success p-0 col-lg-8">
