@@ -9,3 +9,18 @@
 - animations
 */
 /* each class name must indicate the usecase or used UI referance along with funtionality (ex: .reminder-list-container <- here the first word indicate the location and others will describe the functionality) */
+.signuptext{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+.formdata{
+    width: 190em;
+    height: 50em;
+}
+
+.formdata .inputbox{
+    margin: 0%;
+    padding: 0%;
+    background-color: black;
+}
